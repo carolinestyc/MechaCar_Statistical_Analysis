@@ -26,3 +26,17 @@ lot_summary <- mechacar_suspension %>% group_by(Manufacturing_Lot) %>% summarize
                                                                          Var_PSI=var(PSI),
                                                                          Std_Dev_PSI=sd(PSI),
                                                                          Num_Coil=n(), .groups = 'keep')
+
+#Deliverable 3: T-Tests on Suspension Coils
+#Step 1: In your MechaCarChallenge.RScript, write an RScript using the t.test() function
+t.test(mechacar_suspension$PSI,mu=1500)
+#Step 2: Write three more RScripts using the t.test() function and its subset() argument
+lot1 <- subset(mechacar_suspension, Manufacturing_Lot=="Lot1")
+lot2 <- subset(mechacar_suspension, Manufacturing_Lot=="Lot2")
+lot3 <- subset(mechacar_suspension, Manufacturing_Lot=="Lot3")
+
+t.test(lot1$PSI,mu=1500)
+t.test(lot2$PSI,mu=1500)
+t.test(lot3$PSI,mu=1500)
+
+#Step 1: In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots

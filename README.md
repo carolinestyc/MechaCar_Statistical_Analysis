@@ -11,7 +11,7 @@ This model does predict mpg of the prototype effectively. There is an R-Squared 
 ![Deliverable1_2](https://user-images.githubusercontent.com/96352625/163754789-b05bbc63-87ce-445d-af35-072c05881e42.png)
 
 ## Summary Statistics on Suspension Coils
-THe design specifications of for the prototype suspension coils mandates the variance does not exceed 100 psi. Looking at the total sumary table provided below, the variance of the population is 62.29 psi, well below the standard. But looking at the summary by lot, there a different results. Lot 1 and lot 2 are well below the standard (0.9795 and 7.4693 respectively) but lot 3 has a psi variance of 170. Suggesting lot 3 is bringing the total population variance up and the other 2 lots are well below the standard; lot 3 accounting for most of the variance. 
+The design specifications of for the prototype suspension coils mandates the variance does not exceed 100 psi. Looking at the total sumary table below, the variance of the population is 62.29 psi, well below the standard. But looking at the summary by lot, there a different results. Lot 1 and lot 2 are well below the standard (0.9795 and 7.4693 respectively) but lot 3 has a psi variance of 170. Suggesting lot 3 is bringing the total population variance up and the other 2 lots are well below the standard; lot 3 accounting for most of the variance. 
 
 Total Summary
 
@@ -22,7 +22,7 @@ Lot Summary
 ![lot_summary](https://user-images.githubusercontent.com/96352625/163754824-c84230bb-cd38-4f94-b8d9-f6a4eb29d98f.png)
 
 ## t-Tests on Suspension Coils
-Tee one sample t-test has a mean of 1498.78 and a p-value of 0.06028; not significant to reject the null hypothesis. Therefore, the mean of all 3 lots is statistically similiar to the population mean of 1500. 
+The one sample t-test has a mean of 1498.78 and a p-value of 0.06028; not significant to reject the null hypothesis. Therefore, the mean of all 3 lots is statistically similiar to the population mean of 1500. 
 
 ![t test_function](https://user-images.githubusercontent.com/96352625/163757471-9d464839-35f9-47eb-b2c9-d34a8a34d177.png)
 
@@ -34,7 +34,7 @@ Second, looking at lot 2; the results are similar to lot 1. There is a sample me
 
 ![lot2](https://user-images.githubusercontent.com/96352625/163757494-a90a5016-7ccb-4e2e-8513-e679f54e3e06.png)
 
-Finally, lot 3 offers different results than the first 2 lots. A mean of 1496.14 and a p-value of 0.04; there is enough significance to reject the null hypothesis. 
+Finally, lot 3 offers different results than the first 2 lots. A mean of 1496.14 and a p-value of 0.04; there is enough significance to reject the null hypothesis. This comes at no surprise because of the variance results discussed previously; lot 3 had significantly more variance than lots 1 and 2.
 
 ![lot3](https://user-images.githubusercontent.com/96352625/163757511-ee50ecc2-a52d-4e96-80d9-0bd5b7f993f2.png)
 

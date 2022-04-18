@@ -2,15 +2,23 @@
   Challenge 15
 
 ## Linear Regression to Predict MPG
+Looking at the results below, vehicle length and ground clearance have a significant level of variance in the model. Both have p-values of less than 0.05%, suggesting they have a significant impact on the mpg of the prototype car. Vehicle weight, spoiler angle, and AWD do not have a significant relationship and indicate a random amount of variance.
+
+The slope of the linear regression is not zero. It has a p-value of 5.08e-08 and is therefore signifcant; indicating a relationship (a slope in a visualization) and therefore, not a slope of zero (no relationship).
+
+This model does predict mpg of the prototype effectively. There is an R-Squared value of 0.7149 and an adjusted R-Square of 0.6825, suggesting over 70% of the variance in the data is correlated to the independent variables. A pretty effective model. 
 
 ![Deliverable1_2](https://user-images.githubusercontent.com/96352625/163754789-b05bbc63-87ce-445d-af35-072c05881e42.png)
 
 ## Summary Statistics on Suspension Coils
+THe design specifications of for the prototype suspension coils mandates the variance does not exceed 100 psi. Looking at the total sumary table provided below, the variance of the population is 62.29 psi, well below the standard. But looking at the summary by lot, there a different results. Lot 1 and lot 2 are well below the standard (0.9795 and 7.4693 respectively) but lot 3 has a psi variance of 170. Suggesting lot 3 is bringing the total population variance up and the other 2 lots are well below the standard; lot 3 accounting for most of the variance. 
 
 Total Summary
+
 ![total_summary](https://user-images.githubusercontent.com/96352625/163754810-a2f1f3bb-62b8-4a92-aa7f-2516a4d77008.png)
 
 Lot Summary
+
 ![lot_summary](https://user-images.githubusercontent.com/96352625/163754824-c84230bb-cd38-4f94-b8d9-f6a4eb29d98f.png)
 
 

@@ -4,7 +4,7 @@
 ## Linear Regression to Predict MPG
 Looking at the results below, vehicle length and ground clearance have a significant level of variance in the model. Both have p-values of less than 0.05%, suggesting they have a significant impact on the mpg of the prototype car. Vehicle weight, spoiler angle, and AWD do not have a significant relationship and indicate a random amount of variance.
 
-The slope of the linear regression is not zero. It has a p-value of 5.08e-08 and is therefore signifcant; indicating a relationship (a slope in a visualization) and therefore, not a slope of zero (no relationship).
+The slope of the linear regression is not zero. It has a p-value of 5.08e-08 and is therefore signifcant; indicating a relationship (a slope) and therefore, not a slope of zero (no relationship).
 
 This model does predict mpg of the prototype effectively. There is an R-Squared value of 0.7149 and an adjusted R-Square of 0.6825, suggesting over 70% of the variance in the data is correlated to the independent variables. A pretty effective model. 
 

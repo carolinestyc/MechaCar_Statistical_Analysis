@@ -21,6 +21,23 @@ Lot Summary
 
 ![lot_summary](https://user-images.githubusercontent.com/96352625/163754824-c84230bb-cd38-4f94-b8d9-f6a4eb29d98f.png)
 
+## t-Tests on Suspension Coils
+Tee one sample t-test has a mean of 1498.78 and a p-value of 0.06028; not significant to reject the null hypothesis. Therefore, the mean of all 3 lots is statistically similiar to the population mean of 1500. 
+
+![t test_function](https://user-images.githubusercontent.com/96352625/163757471-9d464839-35f9-47eb-b2c9-d34a8a34d177.png)
+
+First, looking only at lot 1; there is a sample mean of 1500 and therefore a p-value of 1. There is no significance between the lot sample and the population mean; therefore, the null hypothesis can not be rejected. 
+
+![lot1](https://user-images.githubusercontent.com/96352625/163757485-5f795c2f-9f51-4dfe-bff6-e5fc595f96bc.png)
+
+Second, looking at lot 2; the results are similar to lot 1. There is a sample mean of 1500.02 and a p-value of 0.61. Not small enough to reject the null as they are statistically similar.
+
+![lot2](https://user-images.githubusercontent.com/96352625/163757494-a90a5016-7ccb-4e2e-8513-e679f54e3e06.png)
+
+Finally, lot 3 offers different results than the first 2 lots. A mean of 1496.14 and a p-value of 0.04; there is enough significance to reject the null hypothesis. 
+
+![lot3](https://user-images.githubusercontent.com/96352625/163757511-ee50ecc2-a52d-4e96-80d9-0bd5b7f993f2.png)
+
 
 ## Study Design: MechaCar vs Competition
 How does the MechaCar peform against the competition? Using a few key metrics, we have crafted a design study to measure their success compared to vehicles of the same price.

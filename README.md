@@ -6,7 +6,7 @@ Looking at the results below, vehicle length and ground clearance have a signifi
 
 The slope of the linear regression is not zero. It has a p-value of 5.08e-08 and is therefore signifcant; indicating a relationship (a slope) and therefore, not a slope of zero (no relationship).
 
-This model does predict mpg of the prototype effectively. There is an R-Squared value of 0.7149 and an adjusted R-Square of 0.6825, suggesting over 70% of the variance in the data is correlated to the independent variables. A pretty effective model. 
+This model does predict mpg of the prototype effectively. There is an R-Squared value of 0.7149 and an adjusted R-Square of 0.6825, suggesting over 70% of the variance in the data is correlated to the independent variables. An effective model. 
 
 ![Deliverable1_2](https://user-images.githubusercontent.com/96352625/163754789-b05bbc63-87ce-445d-af35-072c05881e42.png)
 
